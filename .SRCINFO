@@ -9,6 +9,8 @@ pkgbase = ion-shell
 	makedepends = rustup
 	makedepends = git
 	depends = gcc-libs
+	provides = ion
+	conflicts = ion
 	source = git+https://gitlab.redox-os.org/redox-os/ion/
 	sha256sums = SKIP
 
